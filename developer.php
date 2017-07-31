@@ -26,6 +26,5 @@
   </head>
   <body>
     <a href="login.php"> Click here to LOGIN </br></a>
-    <a href="register.php"> Click here to REGISTER</a>
   </body>
 </html>
