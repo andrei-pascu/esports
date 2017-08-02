@@ -1,6 +1,6 @@
 <?php
   session_start();
-  $link = mysqli_connect("localhost", "root", "", "esports");
+  $link = mysqli_connect("eu-cdbr-west-01.cleardb.com", "b8f790c79aeba6", "f66a1016", "heroku_5f5cb1110080006");
 	if($_SESSION['pgNr'] == 0) {
 		$_SESSION['pgNr'] = 0;
 		$pgNr = $_SESSION['pgNr'];
