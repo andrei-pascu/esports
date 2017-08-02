@@ -124,7 +124,7 @@
     </form>
     <div id="dev-new-container" border="1px" width="100%" height="800px" background-color="lightgray">
 <?php
-  $link = mysqli_connect("localhost", "root", "", "esports");
+  $link = mysqli_connect("eu-cdbr-west-01.cleardb.com", "b8f790c79aeba6", "f66a1016", "heroku_5f5cb1110080006");
   $query = mysqli_query($link, "SELECT * FROM news ORDER BY id DESC;");
   while($row = mysqli_fetch_array($query))
   {
