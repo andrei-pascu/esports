@@ -43,7 +43,7 @@
   session_start();
     $pgnr = 0;
     $_SESSION['pgNr'] = 0;
-    $link = mysqli_connect("localhost", "root", "", "esports");
+    $link = mysqli_connect("eu-cdbr-west-01.cleardb.com", "b8f790c79aeba6", "f66a1016", "heroku_5f5cb1110080006");
     $query = mysqli_query($link, "SELECT * FROM news
       ORDER BY id DESC LIMIT 5 OFFSET $pgnr;");
     while($row = mysqli_fetch_array($query))
