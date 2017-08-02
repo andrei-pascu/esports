@@ -1,6 +1,6 @@
 <?php
   session_start();
-  $link = mysqli_connect("localhost", "root", "", "esports");
+  $link = mysqli_connect("eu-cdbr-west-01.cleardb.com", "b8f790c79aeba6", "f66a1016", "heroku_5f5cb1110080006");
   $counter = mysqli_query($link, "SELECT COUNT(*) AS id FROM news");
   $num = mysqli_fetch_array($counter);
   $count = $num["id"];
