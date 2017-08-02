@@ -111,7 +111,7 @@
 <?php
   if(!empty($_GET['id']))
   {
-    $link = mysqli_connect("localhost", "root","","esports");
+    $link = mysqli_connect("eu-cdbr-west-01.cleardb.com", "b8f790c79aeba6", "f66a1016", "heroku_5f5cb1110080006");
     $id = $_GET['id'];
     $_SESSION['id'] = $id;
     $id_exists = true;
